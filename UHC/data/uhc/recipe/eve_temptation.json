@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "A"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:bone_meal"
+    },
+    "A": {
+      "item": "minecraft:apple"
+    }
+  },
+  "result": {
+      "id": "minecraft:apple",
+      "count": 2
+    },
+  "group": "UHC"
+}

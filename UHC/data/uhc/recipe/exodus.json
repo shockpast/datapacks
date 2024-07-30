@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ddd",
+    "dHd",
+    "eCe"
+  ],
+  "key": {
+    "d": {
+      "item": "minecraft:diamond"
+    },
+    "H": {
+      "item": "minecraft:player_head"
+    },
+    "e": {
+      "item": "minecraft:emerald"
+    },
+    "C": {
+      "item": "minecraft:golden_carrot"
+    }
+  },
+  "result": {
+    "id": "minecraft:diamond_helmet",
+    "count": 1,
+    "components": {
+      "enchantments": {
+        "unbreaking": 3,
+        "protection": 1
+      }
+    }
+  },
+  "group": "UHC"
+}

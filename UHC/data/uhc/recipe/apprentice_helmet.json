@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iii",
+    "iRi"
+  ],
+  "key": {
+    "i": {
+      "item": "minecraft:iron_ingot"
+    },
+    "R": {
+      "item": "minecraft:redstone_torch"
+    }
+  },
+  "result": {
+    "id": "minecraft:iron_helmet",
+    "count": 1,
+    "components": {
+      "enchantments": {
+        "protection": 1,
+        "fire_protection": 1,
+        "blast_protection": 1,
+        "projectile_protection": 1
+      }
+    }
+  },
+  "group": "UHC"
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "C/C",
+    " / "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ore"
+    },
+    "C": {
+      "item": "minecraft:coal"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "minecraft:iron_pickaxe",
+    "count": 1,
+    "components": {
+      "enchantments": {
+        "efficiency": 1
+      }
+    }
+  },
+  "group": "UHC"
+}

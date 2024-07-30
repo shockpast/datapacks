@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " r ",
+    "lCl",
+    " w "
+  ],
+  "key": {
+    "r": {
+      "item": "minecraft:fishing_rod"
+    },
+    "l": {
+      "item": "minecraft:lily_pad"
+    },
+    "C": {
+      "item": "minecraft:compass"
+    },
+    "w": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "result": {
+    "id": "minecraft:fishing_rod",
+    "count": 1,
+    "components": {
+      "enchantments": {
+        "luck_of_the_sea": 10,
+        "lure": 5,
+        "unbreaking": 10
+      }
+    }
+  },
+  "group": "UHC"
+}

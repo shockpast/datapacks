@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LwL",
+    "dPd",
+    "l l"
+  ],
+  "key": {
+    "L": {
+      "item": "minecraft:lapis_block"
+    },
+    "w": {
+      "item": "minecraft:water_bucket"
+    },
+    "d": {
+      "item": "minecraft:diamond"
+    },
+    "P": {
+      "item": "minecraft:diamond_leggings"
+    },
+    "l": {
+      "item": "minecraft:lily_pad"
+    }
+  },
+  "result": {
+    "id": "minecraft:diamond_leggings",
+    "count": 1,
+    "components": {
+      "enchantments": {
+        "respiration": 3,
+        "protection": 4,
+        "aqua_affinity": 1
+      }
+    }
+  },
+  "group": "UHC"
+}

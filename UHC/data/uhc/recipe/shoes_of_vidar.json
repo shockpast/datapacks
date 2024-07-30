@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " p ",
+    "bBb",
+    " r "
+  ],
+  "key": {
+    "p": {
+      "item": "minecraft:pufferfish"
+    },
+    "b": {
+      "item": "minecraft:potion"
+    },
+    "B": {
+      "item": "minecraft:diamond_boots"
+    },
+    "r": {
+      "item": "minecraft:fishing_rod"
+    }
+  },
+  "result": {
+    "id": "minecraft:diamond_boots",
+    "count": 1,
+    "components": {
+      "enchantments": {
+        "depth_strider": 3,
+        "unbreaking": 3,
+        "projectile_protection": 2,
+        "thorns": 1
+      }
+    }
+  },
+  "group": "UHC"
+}
